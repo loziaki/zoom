@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" media="all" href="zoom.css" />
+</head>
+
+<body class="loading">
+	<canvas id="zc" class="filtered" width="0" height="0">喵喵喵</canvas>
+	<script src="jquery.min.js"></script>
+	<script src="zoom.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var imgarray = [];
+		for (var i = 11; i <= 14; i++) {
+			imgarray.push('./img/' + i + '.jpg');
+		};
+		zoom('zc', imgarray);
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+body {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  font: 400 12pt/1.4 Courier, Courier New, monospace;
+  color: #fff;
+}
+h1 {
+  color: #ff0;
+  margin: 0;
+  font-size: 270%;
+}
+.tagline {
+  color: #ff0;
+}
+h4 {
+  margin: 3em 0 3.7em;
+}
+em {
+  color: #0f0;
+  color: #3d9db5;
+}
+p {
+  text-align: left;
+  padding: 0 2em;
+}
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.selectable,
+.selectable * {
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #0f0;
+}
+
+#zc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 0 ;
+  background: rgb(80, 86, 165);
+  z-index: 5;
+  opacity: 0;
+}
